@@ -1,0 +1,10 @@
+name: mlops_env
+channels:
+  - defaults
+dependencies:
+  - anaconda::jupyter
+  - conda-forge::nb_conda
+  - scikit-learn
+  - numpy
+  - pandas
+prefix: /opt/homebrew/Caskroom/miniconda/base/envs/mlops_env
