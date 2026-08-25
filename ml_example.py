@@ -52,4 +52,8 @@ print(f'True Positives (Class 2): {cm[2,2]}')
 # Print classification report
 print('\nClassification Report:')
 print(classification_report(y_test, y_pred))
+<<<<<<< HEAD
 print("This change is only on model_improvement branch")
+=======
+print("This change is only on accuracy_assessment branch")
+>>>>>>> origin/main
